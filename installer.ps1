@@ -12,8 +12,9 @@ $apps_silent = @(
     "9NKSQGP7F2NH" # WhatsApp
 )
 
-$gui = @(
-    "Microsoft.VisualStudioCode"
+$gui = @( # Next execution test script without --scope machine
+    "Microsoft.VisualStudioCode",
+    "Microsoft.VisualStudio.2022.Community"
 )
 
 function silent_installation {
@@ -36,6 +37,6 @@ Clear-Host
 Write-Warning "Starting installation..."
 
 silent_installation
-gui_installation
+# gui_installation
 
 Write-Warning "Finished installation..."
