@@ -10,7 +10,8 @@ $apps_silent = @(
     "7zip.7zip",
     "Python.Python.3.11",
     "9NKSQGP7F2NH", # WhatsApp
-    "REALiX.HWiNFO"
+    "REALiX.HWiNFO",
+    "GitHub.cli"
 )
 
 $gui = @( # Next execution test script without --scope machine
