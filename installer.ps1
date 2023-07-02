@@ -15,7 +15,8 @@ $apps_silent = @(
 
 $gui = @( # Next execution test script without --scope machine
     "Microsoft.VisualStudioCode",
-    "Microsoft.VisualStudio.2022.Community"
+    "Microsoft.VisualStudio.2022.Community",
+    "Insomnia.Insomnia"
 )
 
 function silent_installation {
