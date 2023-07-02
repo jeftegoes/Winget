@@ -11,7 +11,8 @@ $apps_silent = @(
     "Python.Python.3.11",
     "9NKSQGP7F2NH", # WhatsApp
     "REALiX.HWiNFO",
-    "GitHub.cli"
+    "GitHub.cli",
+    "JGraph.Draw"
 )
 
 $gui = @( # Next execution test script without --scope machine
