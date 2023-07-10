@@ -12,7 +12,8 @@ $apps_silent = @(
     "9NKSQGP7F2NH", # WhatsApp
     "REALiX.HWiNFO",
     "GitHub.cli",
-    "JGraph.Draw"
+    "JGraph.Draw",
+    "Mobatek.MobaXterm"
 )
 
 $gui = @( # Next execution test script without --scope machine
