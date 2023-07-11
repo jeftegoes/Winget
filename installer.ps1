@@ -13,7 +13,8 @@ $apps_silent = @(
     "REALiX.HWiNFO",
     "GitHub.cli",
     "JGraph.Draw",
-    "Mobatek.MobaXterm"
+    "Mobatek.MobaXterm",
+    "Amazon.AWSCLI"
 )
 
 $gui = @( # Next execution test script without --scope machine
