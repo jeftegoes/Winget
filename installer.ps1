@@ -8,19 +8,19 @@ $apps_silent = @(
     "Git.Git",
     "Microsoft.SQLServerManagementStudio",
     "7zip.7zip",
-    "Python.Python.3.11",
+    "Python.Python.3.12",
     "9NKSQGP7F2NH", # WhatsApp
     "REALiX.HWiNFO",
     "GitHub.cli",
     "JGraph.Draw",
     "Mobatek.MobaXterm",
-    "Amazon.AWSCLI"
+    "Amazon.AWSCLI",
+    "Insomnia.Insomnia"
 )
 
 $gui = @( # Next execution test script without --scope machine
     "Microsoft.VisualStudioCode",
-    "Microsoft.VisualStudio.2022.Community",
-    "Insomnia.Insomnia"
+    "Microsoft.VisualStudio.2022.Community"
 )
 
 function silent_installation {
@@ -43,6 +43,6 @@ Clear-Host
 Write-Warning "Starting installation..."
 
 silent_installation
-# gui_installation
+gui_installation
 
 Write-Warning "Finished installation..."
