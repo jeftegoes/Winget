@@ -9,13 +9,13 @@ $apps_silent = @(
     "Microsoft.SQLServerManagementStudio",
     "7zip.7zip",
     "Python.Python.3.12",
-    "9NKSQGP7F2NH", # WhatsApp
     "REALiX.HWiNFO",
     "GitHub.cli",
     "JGraph.Draw",
     "Mobatek.MobaXterm",
     "Amazon.AWSCLI",
-    "Insomnia.Insomnia"
+    "Insomnia.Insomnia",
+    "Logitech.GHUB"
 )
 
 $gui = @( # Next execution test script without --scope machine
