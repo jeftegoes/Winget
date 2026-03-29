@@ -6,20 +6,24 @@ $apps_silent = @(
     "Valve.Steam",
     "VideoLAN.VLC",
     "Git.Git",
-    "Microsoft.SQLServerManagementStudio",
+    # "Microsoft.SQLServerManagementStudio",
     "7zip.7zip",
-    "Python.Python.3.12",
+    "Python.Python.3.14",
     "REALiX.HWiNFO",
     "GitHub.cli",
     "JGraph.Draw",
     "Mobatek.MobaXterm",
     "Amazon.AWSCLI",
-    "Logitech.GHUB"
+    "Logitech.GHUB",
+    "Mozilla.Thunderbird",
+    "DBeaver.DBeaver.Community",
+    "JetBrains.IntelliJIDEA.Community",
+    "JetBrains.PyCharm.Community"
 )
 
 $gui = @( # Next execution test script without --scope machine
-    "Microsoft.VisualStudioCode",
-    "Microsoft.VisualStudio.2022.Community"
+    "Microsoft.VisualStudioCode"#,
+    #"Microsoft.VisualStudio.2022.Community"
 )
 
 $especial = @(
